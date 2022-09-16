@@ -70,7 +70,7 @@ body {
 
 .pad {
   padding-left: 50px;
-  padding-rightblue: 100px;
+  padding-right: 100px;
 }
 
 form {
@@ -123,4 +123,13 @@ input:required:invalid {
 
 label {
   padding-bottom: 2px;
+}
+
+@media (max-width: 900px) {
+  body {
+    flex-direction: column-reverse;
+  }
+  section {
+    width: 100%;
+  }
 }
